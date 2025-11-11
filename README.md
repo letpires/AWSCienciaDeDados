@@ -88,8 +88,6 @@ Define **onde** essas ações são válidas:
 
 
 
----
-
 ### Aula 2: Armazenamento na AWS
 
 - **Base de dados:** [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)  
