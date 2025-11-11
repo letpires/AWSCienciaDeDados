@@ -20,6 +20,8 @@ Ao longo das aulas, você aprenderá a utilizar os principais serviços da AWS p
   [What are AWS Credits?](https://www.nops.io/glossary/what-are-aws-credits/)
 - Sobre a camada gratuita:
   [Nível gratuito da AWS](https://aws.amazon.com/pt/free/)
+- **Sobre elegibilidade aos créditos AWS:** Após a verificação do cartão, a AWS mostra uma tela informando se sua conta é elegível para o crédito promocional de 200 USD. Caso não seja, a conta ainda é criada normalmente e você continua tendo acesso ao Free Tier gratuito por 12 meses (incluindo EC2 t2.micro, S3, Lambda, etc.).
+<img src="elegibilidade créditos.png" alt="Elegibilidade aos créditos AWS" width="600">
 
 
 <details>
@@ -83,11 +85,7 @@ Define **onde** essas ações são válidas:
 
 </details>
 
-- **Sobre elegibilidade aos créditos AWS:**
 
-Após a verificação do cartão, a AWS mostra uma tela informando se sua conta é elegível para o crédito promocional de 200 USD. Caso não seja, a conta ainda é criada normalmente e você continua tendo acesso ao Free Tier gratuito por 12 meses (incluindo EC2 t2.micro, S3, Lambda, etc.).
-
-![Elegibilidade aos créditos AWS](/Users/leticiapires/Desktop/dev/AWSCienciaDeDados/elegibilidade créditos.png)
 
 
 ---
