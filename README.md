@@ -5,16 +5,16 @@ Repositório de apoio ao curso **AWS para Ciência de Dados** desenvolvido para 
 
 ---
 
-## Sobre o Curso
+## 📚 Sobre o Curso
 
 Este curso introduz de forma prática o uso da Amazon Web Services (AWS) no contexto da Ciência de Dados.
 Ao longo das aulas, você aprenderá a utilizar os principais serviços da AWS para construir um pipeline completo de dados — desde o armazenamento de informações no Amazon S3, passando pela catalogação e transformação com o AWS Glue, até a análise com o Athena e o treinamento de modelos no SageMaker.
 
 
 
-## Conteúdo
+## 📖 Conteúdo
 
-### Aula 1: IAM, Custos e Boas Práticas
+### 🔐 Aula 1: IAM, Custos e Boas Práticas
 
 - Sobre os créditos da AWS: [What are AWS Credits?](https://www.nops.io/glossary/what-are-aws-credits/)
 - Sobre a camada gratuita:
@@ -87,7 +87,7 @@ Define **onde** essas ações são válidas:
 
 
 
-### Aula 2: Armazenamento na AWS
+### 💾 Aula 2: Armazenamento na AWS
 
 - **Base de dados:** [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)  
   > Este conjunto de dados foi criado ao combinar cinco bases independentes sobre doenças cardíacas — Cleveland, Hungarian, Switzerland, Long Beach VA e Stalog — unificadas a partir de 11 variáveis em comum. O resultado é o maior dataset consolidado já disponível para pesquisa na área, totalizando 918 registros de pacientes.
@@ -95,7 +95,7 @@ Define **onde** essas ações são válidas:
 
 
 
-### Aula 3 e 4: Analisando os dados e criando modelos em instâncias de notebook no Sagemaker
+### 🤖 Aula 3 e 4: Analisando os dados e criando modelos em instâncias de notebook no Sagemaker
 
 - Notebook: [`Heart_model.ipynb`](https://github.com/letpires/AWSCienciaDeDados/blob/main/heart_model.ipynb)
 - [One Hot Encoding Python Tutorial - Datacamp](https://www.datacamp.com/tutorial/one-hot-encoding-python-tutorial)
@@ -106,16 +106,16 @@ Define **onde** essas ações são válidas:
 
 
 
-### Aula 5: ETL com AWS Glue
+### ⚙️ Aula 5: ETL com AWS Glue
 
 - [AWS Glue Data Catalog Best Practices](https://docs.aws.amazon.com/glue/latest/dg/best-practice-catalog.html)
 
 
-### Aula 6: Consultando dados com Athena
+### 🔍 Aula 6: Consultando dados com Athena
 
 - [Workgroups](https://docs.aws.amazon.com/athena/latest/ug/workload-management.html)
 
-## Bases de dados e ideias para projetos futuros
+## 💡 Bases de dados e ideias para projetos futuros
 
 - [Datasets Kaggle](https://www.kaggle.com/datasets)
 - [Portal Brasileiro de Dados Abertos](https://dados.gov.br/home)
@@ -127,7 +127,7 @@ Define **onde** essas ações são válidas:
 
 
 
-## Como Usar
+## 🚀 Como Usar
 - Clone este repositório.
 - Explore os notebooks e os dados na pasta dados/.
 - Siga as instruções de cada aula para acompanhar o curso.
