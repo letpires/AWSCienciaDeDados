@@ -82,12 +82,21 @@ Define **onde** essas ações são válidas:
 7. Clique em **"Create policy"**.
 
 </details>
-  
+
+- **Sobre elegibilidade aos créditos AWS:**
+
+Após a verificação do cartão, a AWS mostra uma tela informando se sua conta é elegível para o crédito promocional de 200 USD. Caso não seja, a conta ainda é criada normalmente e você continua tendo acesso ao Free Tier gratuito por 12 meses (incluindo EC2 t2.micro, S3, Lambda, etc.).
+
+![Elegibilidade aos créditos AWS](/Users/leticiapires/Desktop/dev/AWSCienciaDeDados/elegibilidade créditos.png)
+
+
+---
 
 ### Aula 2: Armazenamento na AWS
 
 - **Base de dados:** [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)  
   > Este conjunto de dados foi criado ao combinar cinco bases independentes sobre doenças cardíacas — Cleveland, Hungarian, Switzerland, Long Beach VA e Stalog — unificadas a partir de 11 variáveis em comum. O resultado é o maior dataset consolidado já disponível para pesquisa na área, totalizando 918 registros de pacientes.
+- [Criar IAM role para o AWS Glue acessar o S3](https://docs.aws.amazon.com/glue/latest/dg/create-an-iam-role.html)
 
 
 
