@@ -1,0 +1,250 @@
+{
+	"jobConfig": {
+		"name": "glue-alura",
+		"description": "",
+		"role": "arn:aws:iam::227647309862:role/Glue",
+		"command": "glueetl",
+		"version": "5.0",
+		"runtime": null,
+		"workerType": "G.1X",
+		"numberOfWorkers": 10,
+		"maxCapacity": 10,
+		"jobRunQueuingEnabled": false,
+		"maxRetries": 0,
+		"timeout": 480,
+		"maxConcurrentRuns": 1,
+		"security": "none",
+		"scriptName": "glue-alura.py",
+		"scriptLocation": "s3://aws-glue-assets-227647309862-eu-north-1/scripts/",
+		"language": "python-3",
+		"spark": true,
+		"sparkConfiguration": "standard",
+		"jobParameters": [],
+		"tags": [],
+		"jobMode": "VISUAL_MODE",
+		"createdOn": "2025-10-24T00:01:21.191Z",
+		"developerMode": false,
+		"connectionsList": [],
+		"temporaryDirectory": "s3://aws-glue-assets-227647309862-eu-north-1/temporary/",
+		"glueHiveMetastore": true,
+		"etlAutoTuning": true,
+		"metrics": true,
+		"observabilityMetrics": true,
+		"bookmark": "job-bookmark-disable",
+		"sparkPath": "s3://aws-glue-assets-227647309862-eu-north-1/sparkHistoryLogs/",
+		"maintenanceWindow": null,
+		"pythonPath": "",
+		"dependentPath": "",
+		"additionalPythonModules": ""
+	},
+	"dag": {
+		"node-1761264126223": {
+			"nodeId": "node-1761264126223",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1761263875287"
+			],
+			"name": "Drop Duplicates",
+			"generatedNodeName": "DropDuplicates_node1761264126223",
+			"classification": "Transform",
+			"type": "DropDuplicates",
+			"parentsValid": true,
+			"calculatedType": "",
+			"columns": [],
+			"codeGenVersion": 2
+		},
+		"node-1761264200271": {
+			"nodeId": "node-1761264200271",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1761264126223"
+			],
+			"name": "Change Schema",
+			"generatedNodeName": "ChangeSchema_node1761264200271",
+			"classification": "Transform",
+			"type": "ApplyMapping",
+			"mapping": [
+				{
+					"toKey": "age",
+					"fromPath": [
+						"age"
+					],
+					"toType": "long",
+					"fromType": "long",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "sex",
+					"fromPath": [
+						"sex"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "chestpaintype",
+					"fromPath": [
+						"chestpaintype"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "restingbp",
+					"fromPath": [
+						"restingbp"
+					],
+					"toType": "long",
+					"fromType": "long",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "cholesterol",
+					"fromPath": [
+						"cholesterol"
+					],
+					"toType": "long",
+					"fromType": "long",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "fastingbs",
+					"fromPath": [
+						"fastingbs"
+					],
+					"toType": "long",
+					"fromType": "long",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "restingecg",
+					"fromPath": [
+						"restingecg"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": true,
+					"children": null
+				},
+				{
+					"toKey": "maxhr",
+					"fromPath": [
+						"maxhr"
+					],
+					"toType": "long",
+					"fromType": "long",
+					"dropped": true,
+					"children": null
+				},
+				{
+					"toKey": "exerciseangina",
+					"fromPath": [
+						"exerciseangina"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": true,
+					"children": null
+				},
+				{
+					"toKey": "oldpeak",
+					"fromPath": [
+						"oldpeak"
+					],
+					"toType": "double",
+					"fromType": "double",
+					"dropped": true,
+					"children": null
+				},
+				{
+					"toKey": "st_slope",
+					"fromPath": [
+						"st_slope"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": true,
+					"children": null
+				},
+				{
+					"toKey": "heartdisease",
+					"fromPath": [
+						"heartdisease"
+					],
+					"toType": "long",
+					"fromType": "long",
+					"dropped": false,
+					"children": null
+				}
+			],
+			"parentsValid": true,
+			"calculatedType": "",
+			"codeGenVersion": 2
+		},
+		"node-1761264549263": {
+			"nodeId": "node-1761264549263",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1761264200271"
+			],
+			"name": "Amazon S3",
+			"generatedNodeName": "AmazonS3_node1761264549263",
+			"classification": "DataSink",
+			"type": "S3",
+			"streamingBatchInterval": 100,
+			"format": "glueparquet",
+			"compression": "snappy",
+			"numberTargetPartitions": "0",
+			"path": "s3://aws-alura-ds22/processed/",
+			"partitionKeys": [],
+			"schemaChangePolicy": {
+				"enableUpdateCatalog": true,
+				"updateBehavior": "UPDATE_IN_DATABASE",
+				"database": "processed-data",
+				"table": "glue-heart"
+			},
+			"updateCatalogOptions": "schemaAndPartitions",
+			"autoDataQuality": {
+				"isEnabled": true,
+				"evaluationContext": "EvaluateDataQuality_node1761263796774"
+			},
+			"calculatedType": "",
+			"codeGenVersion": 2
+		},
+		"node-1761263875287": {
+			"nodeId": "node-1761263875287",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [],
+			"name": "Amazon S3",
+			"generatedNodeName": "AmazonS3_node1761263875287",
+			"classification": "DataSource",
+			"type": "S3",
+			"isCatalog": true,
+			"database": "raw-data",
+			"table": "raw",
+			"partitionPredicate": "",
+			"additionalOptions": {
+				"boundedSize": null,
+				"boundedFiles": null,
+				"boundedOption": null
+			},
+			"calculatedType": "CatalogS3DataSource",
+			"runtimeParameters": [],
+			"codeGenVersion": 2
+		}
+	},
+	"hasBeenSaved": false,
+	"usageProfileName": null
+}
