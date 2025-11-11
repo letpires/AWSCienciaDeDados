@@ -16,8 +16,7 @@ Ao longo das aulas, você aprenderá a utilizar os principais serviços da AWS p
 
 ### Aula 1: IAM, Custos e Boas Práticas
 
-- Sobre os créditos da AWS:  
-  [What are AWS Credits?](https://www.nops.io/glossary/what-are-aws-credits/)
+- Sobre os créditos da AWS: [What are AWS Credits?](https://www.nops.io/glossary/what-are-aws-credits/)
 - Sobre a camada gratuita:
   [Nível gratuito da AWS](https://aws.amazon.com/pt/free/)
 - **Sobre elegibilidade aos créditos AWS:** Após a verificação do cartão, a AWS mostra uma tela informando se sua conta é elegível para o crédito promocional de 200 USD. Caso não seja, a conta ainda é criada normalmente e você continua tendo acesso ao Free Tier gratuito por 12 meses (incluindo EC2 t2.micro, S3, Lambda, etc.).
@@ -99,7 +98,8 @@ Define **onde** essas ações são válidas:
 ### Aula 3 e 4: Analisando os dados e criando modelos em instâncias de notebook no Sagemaker
 
 - Notebook: [`Heart_model.ipynb`](https://github.com/letpires/AWSCienciaDeDados/blob/main/heart_model.ipynb)
-- [One Hot Encoding Python Tutorial](https://www.datacamp.com/tutorial/one-hot-encoding-python-tutorial) - DataCamp
+- [One Hot Encoding Python Tutorial - Datacamp](https://www.datacamp.com/tutorial/one-hot-encoding-python-tutorial)
+- 
 
 
 
@@ -110,6 +110,7 @@ Define **onde** essas ações são válidas:
 
 ### Aula 6: Consultando dados com Athena
 
+-[Workgroups](https://docs.aws.amazon.com/athena/latest/ug/workload-management.html)
 
 ## Bases de dados e ideias para projetos futuros
 
@@ -118,19 +119,8 @@ Define **onde** essas ações são válidas:
 - [UCI Repositório de Machine Learning](https://archive.ics.uci.edu/)
 - [Dados abertos do governo americano](https://data.gov/)
 - [Sidra IBGE](https://sidra.ibge.gov.br/home/ipca15/brasil)
+- [7 Days of Code Alura - Machine Learning](https://7daysofcode.io/matricula/machine-learning)
 - [Dados sobre câncer](https://www.cancerimagingarchive.net/access-data/): O TCIA (“Acervo de Imagens de Câncer”) é um repositório público mantido pela National Cancer Institute (NCI) dos EUA, dedicado a armazenar e disponibilizar para download imagens médicas relacionadas ao câncer e também dados estruturados.
-
-
-
-## Estrutura do Repositório
-
-```
-📓 Heart_Disease.ipynb
-📁 dados/
-    ├── heart.csv
-    ├── heart_model.ipynb
-    
-```
 
 
 
