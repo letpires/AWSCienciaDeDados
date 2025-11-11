@@ -1,5 +1,5 @@
 
-# AWS para Ciência de Dados ☁️ ☁️
+# AWS para Ciência de Dados ☁️ 
 
 Repositório de apoio ao curso **AWS para Ciência de Dados** desenvolvido para a Alura.
 
@@ -109,11 +109,16 @@ Define **onde** essas ações são válidas:
 ### ⚙️ Aula 5: ETL com AWS Glue
 
 - [AWS Glue Data Catalog Best Practices](https://docs.aws.amazon.com/glue/latest/dg/best-practice-catalog.html)
+- [Iniciar trabalhos de ETL visual no AWS Glue Studio
+](https://docs.aws.amazon.com/glue/latest/dg/edit-nodes-chapter.html)
 
 
 ### 🔍 Aula 6: Consultando dados com Athena
 
-- [Workgroups](https://docs.aws.amazon.com/athena/latest/ug/workload-management.html)
+- [Use grupos de trabalhos (workgroups)](https://docs.aws.amazon.com/athena/latest/ug/workgroups-manage-queries-control-costs.html)
+- [Especificar um local para resultados de consultas
+](https://docs.aws.amazon.com/pt_br/athena/latest/ug/query-results-specify-location.html)
+
 
 ## 💡 Bases de dados e ideias para projetos futuros
 
