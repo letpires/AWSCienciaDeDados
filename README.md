@@ -113,7 +113,7 @@ Define **onde** essas ações são válidas:
 
 ### Aula 6: Consultando dados com Athena
 
--[Workgroups](https://docs.aws.amazon.com/athena/latest/ug/workload-management.html)
+- [Workgroups](https://docs.aws.amazon.com/athena/latest/ug/workload-management.html)
 
 ## Bases de dados e ideias para projetos futuros
 
@@ -127,7 +127,10 @@ Define **onde** essas ações são válidas:
 
 
 
-
+## Como Usar
+- Clone este repositório.
+- Explore os notebooks e os dados na pasta dados/.
+- Siga as instruções de cada aula para acompanhar o curso.
 
 
 
