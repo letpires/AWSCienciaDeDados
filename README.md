@@ -99,7 +99,10 @@ Define **onde** essas ações são válidas:
 
 - Notebook: [`Heart_model.ipynb`](https://github.com/letpires/AWSCienciaDeDados/blob/main/heart_model.ipynb)
 - [One Hot Encoding Python Tutorial - Datacamp](https://www.datacamp.com/tutorial/one-hot-encoding-python-tutorial)
-- 
+- [Get-dummies vs OneHotEncoder, qual método escolher? - Alura](https://www.alura.com.br/artigos/get-dummies-vs-onehotencoder-qual-metodo-escolher?srsltid=AfmBOoomjijM4GqMSjYQ4-YhceK5zo_nqx1F9rSO1klO4z4zHv6m6aYd)
+- [Encoding categorical data](https://medium.com/data-science/encoding-categorical-data-explained-a-visual-guide-with-code-example-for-beginners-b169ac4193ae)
+- [Como tratar outliers sem excluir](https://franciscofoz.medium.com/como-tratar-outliers-sem-exclu%C3%AD-los-19dd5c1ba3e6)
+- [Salvar e carregar modelos de ML treinados usando a biblioteca scikit learn](https://oseiasfarias.medium.com/salvar-e-carregar-modelos-de-machine-learning-treinados-usando-a-biblioteca-scikit-learn-cb61a8c99348)
 
 
 
