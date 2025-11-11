@@ -108,9 +108,13 @@ Define **onde** essas ações são válidas:
 
 ### ⚙️ Aula 5: ETL com AWS Glue
 
+- [`glue-alura.json`](https://github.com/letpires/AWSCienciaDeDados/blob/main/glue-alura.json): contém o job criado no AWS Glue Studio (Visual ETL), com as etapas de leitura, transformação e gravação dos dados realizadas durante a aula.
+- [Usar crawlers para preencher o catálogo de dados
+](https://docs.aws.amazon.com/pt_br/glue/latest/dg/add-crawler.html)
 - [AWS Glue Data Catalog Best Practices](https://docs.aws.amazon.com/glue/latest/dg/best-practice-catalog.html)
 - [Iniciar trabalhos de ETL visual no AWS Glue Studio
 ](https://docs.aws.amazon.com/glue/latest/dg/edit-nodes-chapter.html)
+
 
 
 ### 🔍 Aula 6: Consultando dados com Athena
