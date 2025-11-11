@@ -93,7 +93,7 @@ Define **onde** essas ações são válidas:
 
 ### Aula 3 e 4: Analisando os dados e criando modelos em instâncias de notebook no Sagemaker
 
-- Notebook: [`Heart_model.ipynb`]()
+- Notebook: [`Heart_model.ipynb`](https://github.com/letpires/AWSCienciaDeDados/blob/main/heart_model.ipynb)
 - [One Hot Encoding Python Tutorial](https://www.datacamp.com/tutorial/one-hot-encoding-python-tutorial) - DataCamp
 
 
