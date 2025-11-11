@@ -91,13 +91,9 @@ Define **onde** essas ações são válidas:
 
 
 
-### Aula 3: Analisando os dados com Sagemaker
+### Aula 3 e 4: Analisando os dados e criando modelos em instâncias de notebook no Sagemaker
 
-- Notebook: [`_Aula_4_Python_e_Nuvem.ipynb`](https://github.com/letpires/FundamentosNuvem/blob/main/%F0%9F%93%93_Aula_4_Python_e_Nuvem.ipynb)
-
-
-### Aula 4: Criando modelos em instâncias do Sagemaker
-
+- Notebook: [`Heart_model.ipynb`]()
 - [One Hot Encoding Python Tutorial](https://www.datacamp.com/tutorial/one-hot-encoding-python-tutorial) - DataCamp
 
 
@@ -112,7 +108,12 @@ Define **onde** essas ações são válidas:
 
 ## Bases de dados e ideias para projetos futuros
 
-- 
+- [Datasets Kaggle](https://www.kaggle.com/datasets)
+- [Portal Brasileiro de Dados Abertos](https://dados.gov.br/home)
+- [UCI Repositório de Machine Learning](https://archive.ics.uci.edu/)
+- [Dados abertos do governo americano](https://data.gov/)
+- [Sidra IBGE](https://sidra.ibge.gov.br/home/ipca15/brasil)
+- [Dados sobre câncer](https://www.cancerimagingarchive.net/access-data/): O TCIA (“Acervo de Imagens de Câncer”) é um repositório público mantido pela National Cancer Institute (NCI) dos EUA, dedicado a armazenar e disponibilizar para download imagens médicas relacionadas ao câncer e também dados estruturados.
 
 
 
@@ -121,7 +122,9 @@ Define **onde** essas ações são válidas:
 ```
 📓 Heart_Disease.ipynb
 📁 dados/
-    ├── BR.json
+    ├── heart.csv
+    ├── heart_model.ipynb
+    
 ```
 
 
